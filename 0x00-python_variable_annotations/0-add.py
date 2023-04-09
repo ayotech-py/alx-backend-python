@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 
-def add(a: float, b: float) -> float:
-    """My additon function"""
+'''
+    Basic annotations for variables.
+'''
 
-    return a + b;
+
+def add(a: float, b: float) -> float:
+    '''
+        Returns sum of two floats.
+    '''
+    return a + b
